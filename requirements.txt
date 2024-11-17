@@ -1,0 +1,7 @@
+youtube_transcript_api
+transformers
+torch
+PyMuPDF
+nltk
+scikit-learn
+gTTS
