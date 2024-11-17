@@ -12,10 +12,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost/skillio', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+// mongoose.connect('mongodb://localhost/skillio', {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
 app.get('/', (req, res) => {
   res.send('Skillio API is running');
 });
